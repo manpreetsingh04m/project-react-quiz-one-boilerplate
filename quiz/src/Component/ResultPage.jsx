@@ -31,13 +31,13 @@ class ResultPage extends Component {
         <div className="button-container-score">
           <button
             className="play-again-button"
-            onClick={this.props.onPlayAgainClick}
+            onClick={this.props.onPlayAgain}
           >
             Play Again
           </button>
           <button
             className="back-button"
-            onClick={this.props.onBackToHomeClick}
+            onClick={this.props.onBackToHome}
           >
             Back To Home
           </button>

@@ -30,15 +30,15 @@ class App extends Component {
     return (
       <div>
         {currentPage === "home" && (
-          <HomeComponent onPlayClick={this.navigateToQuiz} />
+          <HomeComponent onPlay={this.navigateToQuiz} />
         )}
         {currentPage === "quiz" && (
-          <QuizComponent onQuitClick={this.navigateToScore} />
+          <QuizComponent onQuit={this.navigateToScore} />
         )}
         {currentPage === "score" && (
           <ResultPage
-            onPlayAgainClick={this.navigateToQuiz}
-            onBackToHomeClick={this.navigateToHome}
+            onPlayAgain={this.navigateToQuiz}
+            onBackToHome={this.navigateToHome}
           />
         )}
       </div>

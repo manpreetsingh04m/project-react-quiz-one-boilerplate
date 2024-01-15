@@ -18,7 +18,7 @@ class QuizComponent extends Component {
   }
 
   handleQuit = () => {
-    this.props.onQuitClick();
+    this.props.onQuit();
   };
 
   handleOptionClick = (index) => {
